@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de Usuario</title>
+    <link rel="stylesheet" href="/styles/user.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="update">
+            <center>
+                <h1 class='titulo'>Actualizar datos de usuario</h1>
+                <br><input type='text' id='user1' placeholder="Usuario anterior" autocomplete="off" required><br>
+                <br>
+                <br><input type='text' id='user2' placeholder="Nuevo Usuario" autocomplete="off" required><br>
+                <br>
+                <br><input type='text' id='password1' placeholder="Contraseña anterior" autocomplete="off" required><br>
+                <br>
+                <br><input type='text' id='password2' placeholder="Nueva Contraseña" autocomplete="off" required><br>
+                <br>
+                <input type='submit' value='Enter' name='Ingresar'>
+            </center>
+        </form>
+
+        <form id="delete">
+            <center>
+                <h1 class='titulo'>Eliminar Usuario</h1>
+                <br><input type='text' id='usuario' placeholder="User" autocomplete="off" required><br>
+                <br>
+                <br><input type='password' id='password' placeholder="Password" autocomplete="off" required><br>
+                <br>
+                <input type='submit' value='Enter' name='Ingresar'>
+            </center>
+        </form>
+    </div>
+    <script src="/middleware/updete.js"></script>
+
+</body>
+
+</html>
